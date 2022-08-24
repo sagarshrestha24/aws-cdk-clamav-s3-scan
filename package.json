@@ -1,8 +1,8 @@
 {
-  "name": "clamav-test",
+  "name": "cdk_test",
   "version": "0.1.0",
   "bin": {
-    "clamav-test": "bin/clamav-test.js"
+    "cdk_test": "bin/cdk_test.js"
   },
   "scripts": {
     "build": "tsc",
@@ -11,17 +11,18 @@
     "cdk": "cdk"
   },
   "devDependencies": {
-    "@types/jest": "^27.4.1",
+    "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
-    "jest": "^27.5.1",
-    "ts-jest": "^27.1.4",
-    "aws-cdk": "2.23.0",
-    "ts-node": "^10.7.0",
+    "aws-cdk": "^2.11.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.23.0",
+    "aws-cdk-lib": "^2.11.0",
+    "cdk-serverless-clamscan": "^2.1.29",
     "constructs": "^10.0.0",
-    "source-map-support": "^0.5.21"
+    "source-map-support": "^0.5.16"
   }
 }
